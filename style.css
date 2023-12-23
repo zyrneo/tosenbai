@@ -1,0 +1,50 @@
+.card{
+    height: 500px;
+    width: 900px;
+    background-color: rgb(67, 148, 101);
+    border-radius: 10px;
+    position: fixed;
+    left: 30px;
+    padding: 10px;
+    display:flex;
+}
+
+.left{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px 0 10px 10px;
+    padding: 0px;
+}
+
+.right{
+    height: 100%;
+    width: 20%;
+    border-radius: 0 10px 10px 0;
+    border-left: 2px solid rgb(67, 148, 101);
+}
+
+.right_top{
+    height: 60%;
+    width: 100%;
+    background:linear-gradient(#000000,#000061);
+    border-radius: 0 10px 10px 0px;
+    border-left: 2px solid rgb(67, 148, 101);
+}
+
+.right_bottom{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(67, 148, 101);
+    border-radius: 0 10px 10px 10px;
+}
+.text{
+    font-family: sans-serif;
+    padding: 0 20px 0 20px;
+    letter-spacing:1px;
+    line-height:1.7;
+}
+
+img{
+    width: 100%;
+}
